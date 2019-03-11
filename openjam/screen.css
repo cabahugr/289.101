@@ -46,3 +46,85 @@ body {
     margin-top: 25px;
     padding: 15px 30px;
 }
+
+#what {
+    background-color: rgba(200,240,220,0.92);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 400px;
+    color: #347788;
+    line-height: 1.6em;
+    
+  
+}
+
+#what h1, #why h1 {
+    width:800px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#what p, #why p {
+    width:800px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#what h2{
+    width:800px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#what h1 + p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+
+#sponsor_logos {
+    word-spacing: 30px;
+}
+
+#sponsor_logos img {
+    width: 300px;
+    
+}
+
+
+#why {
+    background-color: #b6ead3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #347788;
+    line-height: 1.6em;
+}
+
+
+#where {
+    background-image: url(img/map.gif);
+    padding-top: 55px;
+    padding-bottom: 380px;
+}
+
+
+#where h1 {
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

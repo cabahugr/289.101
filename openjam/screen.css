@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-d* { outline: red 1px solid; } 
+{ outline: red 1px solid; } 
 
 body {
     background-color: #82DDB5;
@@ -51,7 +51,7 @@ body {
     background-color: rgba(200,240,220,0.92);
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: 400px;
+    margin-top: 360px;
     color: #347788;
     line-height: 1.6em;
     
@@ -59,7 +59,7 @@ body {
 }
 
 #what h1, #why h1 {
-    width:800px;
+    width:600px;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
@@ -67,7 +67,7 @@ body {
 }
 
 #what p, #why p {
-    width:800px;
+    width:600px;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
@@ -75,7 +75,7 @@ body {
 }
 
 #what h2{
-    width:800px;
+    width:600px;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
@@ -108,8 +108,10 @@ body {
 
 #where {
     background-image: url(img/map.gif);
-    padding-top: 55px;
+    background-position: center;
+    padding-top: 40px;
     padding-bottom: 380px;
+    
 }
 
 
@@ -120,7 +122,27 @@ body {
 }
 
 
+#where p {
+    width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: right;
+}
 
+
+#where p, #where h1 {
+    color: #bb488b;
+    line-height: 1.6em;
+    font-weight: bold;
+    
+}
+
+#when {
+    background-image: url(img/wires.png);
+    background-position: center;
+    background-color: #439998;
+    padding-top: 50px;
+}
 
 
 

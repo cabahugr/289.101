@@ -47,6 +47,7 @@ body {
     padding: 15px 30px;
 }
 
+/*what*/
 #what {
     background-color: rgba(200,240,220,0.92);
     padding-top: 40px;
@@ -97,6 +98,7 @@ body {
 }
 
 
+/*why*/
 #why {
     background-color: #b6ead3;
     padding-top: 40px;
@@ -106,6 +108,7 @@ body {
 }
 
 
+/*where*/
 #where {
     background-image: url(img/map.gif);
     background-position: center;
@@ -133,16 +136,82 @@ body {
 #where p, #where h1 {
     color: #bb488b;
     line-height: 1.6em;
-    font-weight: bold;
-    
+    font-weight: bolder;
 }
 
+
+/*when*/
 #when {
     background-image: url(img/wires.png);
     background-position: center;
     background-color: #439998;
+    background-repeat: repeat-x, repeat-y;
     padding-top: 50px;
+    padding-bottom: 60px;
+
 }
+
+
+#when h1, #when h2, #when h3 {
+    color: #FFFFFF; 
+    font-weight: bold;
+    text-align: center;
+}
+
+#when ul {
+    color: #FFF;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+#when h3 {
+    border-top: 2px dashed #FFF;
+    padding-top: 20px;
+}
+
+
+/*who*/
+#who {
+    height: 310px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: center;
+    line-height: 1.6em;
+    color: #347788;
+}
+
+#who h1, #who p {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#who h1 + p {
+    font-size: 1.2em;
+}
+
+
+/*footer*/
+#footer {
+    text-align: center;
+    padding: 25px;
+    word-spacing: 25px;
+}
+
+#footer img {
+    width: 50px;
+    
+    
+}
+
+
+
+
+
 
 
 

@@ -14,19 +14,32 @@
                 
                 .blue {
                     background-color:#3FB4FF;
-                    height: 75px;
+                    height: 100px;
                 }
                     
                 .green {
                     background-color: yellowgreen;
-                    height: 75px;
+                    height: 100px;
                 }
                 
-                .orange{
-                    background-color: orange;
-                    height: 600px;
+                .orange {
+                    height: 730px;
                 }
                 
+                .red {
+                    background-color: firebrick;
+                    height: 300px;
+                }
+                
+                .grey {
+                    background-color: gainsboro;
+                    height: 250px;
+                }
+                
+                .pink {
+                    background-color: pink;
+                    height: 250px;
+                }
                 /* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/
                 
                 /* sm (landscape phones, 576px and up)*/
@@ -36,12 +49,39 @@
 
                 /* md (tablets, 768px and up)*/
                 @media (min-width: 768px) {
+                    .green {
+                        height: 200px;
+                    }
                     
+                    .orange {
+                        height: 570px;
+                    }
+                    
+                    .red {
+                        height: 570px;
+                    }
+                    
+                    .grey {
+                        height: 180px;
+                    }
+                    
+                    .pink {
+                        height: 170px;
+                    }
                 }
 
                 /* lg (desktops, 992px and up)*/
                 @media (min-width: 992px) {
+                    .green {
+                        height: 1020px;
+                    }
+                    .grey {
+                        height: 170px;
+                    }
                    
+                    .red {
+                        height: 1020px;
+                    }
                 }
 
                 /* xl (large desktops, 1200px and up)*/
@@ -66,24 +106,30 @@
                     
                     <div class="col-12 orange col-md-6 col-lg-6">
                     
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
-                        <div class="col-6 grey col-md-3 col-lg-4"></div>
+                        
+                        <div class="row">
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
+                            
+                        <div class="col-6 grey col-lg-4"></div>
+                        <div class="col-lg-8 pink d-none d-lg-block"></div>
                         
                         
+                        </div>
                         
-                        <div class="col-lg-8 pink d-md-none"></div>
-                        <div class="col-lg-8 pink d-md-none"></div>
-                        <div class="col-lg-8 pink d-md-none"></div>
-                        <div class="col-lg-8 pink d-md-none"></div>
-                        <div class="col-lg-8 pink d-md-none"></div>
-                        <div class="col-lg-8 pink d-md-none"></div>
-                    
-                        
-                    
                     </div>
                     
                     <div class="col-12 red col-md-6 col-lg-3"></div>
